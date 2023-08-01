@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+   background: #fff;
+   color: 333;
+}
+@media all and (max-width: 320px) {
+   body {
+      background: #e7e7e7;
+   }
+}
+header{
+	width: 100%;
+}
+#hena_left{
+	float: left;
+	width: 30%;
+}
+#hena_left img{
+	padding-left: 60%;
+}
+#hena{
+	float: left;
+	width: 50%;
+	margin-top: 30px;
+}
+#hena_right{
+	float: left;
+	width: 20%;
+	margin-top: 48px;
+	
+}
+.hena_item{
+	float: left;
+}
+.hena_ul{
+	list-style-type: none;
+}
+.hena_item a{
+	list-style-type: none;
+	text-decoration: none;
+	margin: auto;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 20px;
+	font-family: "UVF Blenda Script";
+	text-shadow: yellow 0.1em 0.1em 0.2em;
+	color: #009DFF;
+}
+.hena_item a:hover{
+	list-style-type: none;
+	text-decoration: none;
+	margin: auto;
+	padding: 20px;
+	font-weight: bold;
+	font-size: 22px;
+	font-family: "UVF Blenda Script";
+	text-shadow: yellow 0.1em 0.1em 0.2em;
+	color: #FF6500;
+}
+section{
+	width: 100%;
+}
+#img_main p{
+	position: absolute;
+	text-align: center;
+	padding-left: 40%;
+	padding-right: 35%;
+	font-size: 50px;
+	color: white;
+	font-family: "UVF Blenda Script";
+	padding-top: 20%;
+}
+#avatar img{
+	border-radius:50%;
+	moz-border-radius:50%;
+	webkit-border-radius:50%;
+	margin-left: 40%;
+	margin-top: 30px;
+	padding-right: auto;
+	box-shadow: blue 0.3em 0.3em 0.5em;;
+}
+#avatar h3{
+	padding-left: 46%;
+	
+}
+#avatar strong{
+	padding-left: 46%;
+	
+}
+#avatar p{
+	padding-left: 20%;
+	padding-right: 20%;
+	text-indent: inherit;
+	line-height: inherit;
+}
+
+#thongtin{
+	width: 100%;
+	padding-left: 20% ;
+}
+#menu_thongtin{
+	width: 100%;
+}
+#menu_thongtin_left{
+	float: left;
+	width: 20%;
+	height: auto;
+}
+#menu_thongtin_right{
+	float: left;
+	width: 50%;
+	height: auto
+	}
+.menu_thongtin_left{
+	list-style-type: none;
+}
+.menu_thongtin_right{
+	list-style-type: none;
+}
+#kinhnghiem{
+	padding-left: 20%;
+}
+#kynang{
+	padding-left: 20%;
+}
+#cackynang{
+	width: 200%;
+	padding-left: 20%;
+	font-family: "UVF Blenda Script";
+}
+#cackynang li{
+	list-style-type: none;
+	padding-left: 15%;
+}
+#cackynang_left{
+	float: left;
+}
+#cackynang_right{
+	float: left;
+	width: 40%;
+}
+#cackynang_right li{
+	padding-top: 20px;
+	padding-bottom: 50px;
+	width: 60%;
+}
+#dangky{
+	text-align:center;
+	width: 100%;
+	float: left;
+	}
+#dangky a{
+	border-style:solid;
+	border-width:thin;
+	border-radius: 50px;
+	padding: 15px;
+	margin-top: 0px;
+	margin-left: 15px;
+	text-decoration:none;
+	color: #000;
+	}
+#dangky a:hover{
+	border-style:solid;
+	border-width:thin;
+	border-radius: 50px;
+	border-color: #46E6FF;
+	padding: 15px;
+	text-decoration: none;
+	background-color: #46E6FF;
+	color: #FFF;
+	}
+#cackynang img:hover{
+	scale: 1.2;
+	box-shadow: 
+}
+.menu-final{
+	width:100%;
+	margin-top: 100px;
+	margin-left: 17%;
+	}	
+.menu-final-cl{
+	float:left;
+	list-style-type: none;
+	width: 10%;
+	margin-left: 0px;
+	}
+.clfn{
+	padding-top: 10px;
+}
+.clfn a{
+	color:#000;
+	text-decoration: none;
+	}	
+.clfn a:hover{
+	color:#000;
+	text-decoration: none;
+	font-weight: bold;
+	font-style: italic;
+	}	
+.clfn-td{
+	color: #46E6FF;
+	font-weight: bolder;
+	
+}
+#sb a{
+	border-style:solid;
+	border-width:thin;
+	border-radius: 50px;
+	padding: 10px;
+	color: #000;
+	text-decoration: none
+	}
+#sb a:hover {
+	border-style:solid;
+	border-width:thin;
+	border-radius: 50px;
+	padding: 10px;
+	color: #FFFFFF;
+	background-color: #46E6FF;
+	text-decoration: none;
+	}
+#danhmucsp{
+	width: 100%;
+	padding-left: 20%;
+}
+
+#ft{
+	float: none;
+	margin-top: 750px;
+	text-align: center;
+}
+footer{
+	margin-top: 500px;
+	width: 100%;
+	height: 220px;
+	background-color:#007DBB;
+	color: #F5FF24;
+}
+hr{
+	width: 1080px;
+}
+#ft h2{
+	padding-top: 20px;
+}
+.ft-left{
+	float: left;
+	padding-left: 12%;
+}
+.ft-medium{
+	float: left;
+}
+.ft-right{
+	float: left;
+	position: absolute;
+    right: 0px;
+    width: 30%;
+	padding-top: 30px;
+}
+.ft-medium-item{
+	float: left;
+	padding-top: 60px;
+	padding-left: 30px;
+	list-style-type: none;
+}
+.ft-medium-item a{
+	text-decoration: none;
+	color: #F5FF24;
+}
+.ft-medium-item a:hover{
+	text-decoration: none;
+	color: #F9C;
+}
+.ft-right img{
+	margin-left: 30px;
+	border-radius: 100%;
+	background-color: #FFFFFF;
+}
+.ft-right img:hover{
+	margin-left: 30px;
+	border-radius: 100%;
+	background-color: #ABABAB;
+}
+
+
+

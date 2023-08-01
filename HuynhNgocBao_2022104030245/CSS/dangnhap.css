@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+#dangnhap{
+	margin-top: 50px;
+	padding-left: 490px;
+	height: 100px;
+}
+#dangnhap form table tr td {
+	padding: 5px;
+}
+#cosan{
+	padding-top: 30px;
+	padding-left: 550px;
+}
+#cosan p{
+	font-size: 10px;
+}
+#cosan input{
+	margin-left: 10px;
+	margin-top: 10px;
+	background-color: aqua;
+	border-radius: 4px;
+}
+

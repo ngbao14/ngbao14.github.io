@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+.danhmuc{
+	line-height: 40px;
+	margin: 3px;
+	border-top: 1px #ABABAB;
+	border-bottom: 1px solid #ABABAB;
+}
+.dmsp p{
+	border: 1px solid #EF9293;
+	border-radius: 150px;
+	width: 190px;
+	height: 25px;
+	text-align: center;
+	margin: 1em;
+	padding: 5px;
+}
+.dmsp a{
+	text-decoration: none;
+	color: #000000;
+	margin: 1em;
+	padding: 1em;
+}
+.dmsp ul li{
+	padding: 5px;
+}
+.dmsp{
+	border-right: 1px dashed #000000;
+	float: left;
+	height: 500px;
+}
+
